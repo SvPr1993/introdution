@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="../static/images/developer.png" type="image/x-icon">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>SvPr1993</title>
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+  <link rel="stylesheet" href="../static/style.css">
+
+</head>
+<body>
+
+  <header class="header">
+    <span class="logo">Сайт-визитка</span>
+  </header>
+
+  <div class="hero">
+    <div class="container hero__container">
+      <div class="hero__about">
+        <h1 class="hero__title">Python-разработчик</h1>
+        <h2 class="hero__subtitle">Прибыткин Святослав</h2>
+        <p class="hero__description">
+          Привет, я занимаюсь программированием на языке Python,
+          <br>c моими проектами можно ознакомится в моем профиле на Github.</p>
+        <div class="my_resume">
+          <a class="my_resume" href="{{ url_for('resume') }}">Мое Резюме</a>
+      </div>
+        
+        <p>Обратная связь</p>
+      
+
+
+        <div class="hero__links">
+          <a class="hero__link" href="mailto:mrtventana@gmail.com" target="_blank"><i class='bx bxl-gmail'></i></a>
+          <a class="hero__link" href="https://github.com/SvPr1993"><i class='bx bxl-github'></i></a>
+          <a class="hero__link" href="https://t.me/svyat1993"><i class='bx bxl-telegram'></i></a>
+        </div>
+      </div>
+      <div class="hero__box">
+        <img class="hero__box-img" src="../static/images/Avatar.png" alt="">
+      </div>
+
+    </div>
+
+  </div>
+</body>
+
+</html>

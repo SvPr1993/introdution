@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Резюме и опыт работы</title>
+  <link rel="shortcut icon" href="../static/images/myresume.png" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+  rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+  <link rel="stylesheet" href="../static/main.css">
+</head>
+<body>
+  <div class="cv">
+    <section>
+      <div class="return_home">
+        <a class="return_home" href="{{ url_for('index') }}"></i>Вернутся на главную страницу</a>
+        <div class="return_home_icon"></div>
+        <a class="return_home_icon" href="{{ url_for('index') }}"><i class='bx bxs-share'></i></a>
+      </div>
+      <h1>Добрый день!</h1>
+      <h2>Рад вас приветствовать на своей странице</h2>
+      
+      <div class="description">
+          Меня зовут <b>Прибыткин Святослав</b> и я являюсь начинающем <b>Python-разработчиком</b>.
+          Проходил обучения языку программирования Python самостоятельно.
+      </div>
+    </section>
+
+      <h3>Опыт работы</h3>
+
+      <div class="experience">
+        <div class="experience__date">C 2017 года</div>
+        <div class="experience__description">
+          <div class="experience__name">Инженер-технолог</div>
+          <div class="experience__company">Акционерное общество <b>«Российская корпорация ракетно-космического приборостроения и информационных систем»</b> г. Москва, разработка, изготовление, авторское сопровождение и эксплуатация космических информационных систем.</div>
+          <a href="https://russianspacesystems.ru"><img src="../static/images/rks.png" height="80" width="250"></a>
+          <div class="experience__details">
+            <section>
+            <h1><b>Должностные обязанности:</b></h1>
+              <li>Разработка и внедрение новых технологий на производстве</li>
+              <li>Разработка и коррекция технологических процессов, маршрутных и операционных карт, инструкций, стандартов предприятия</li>
+              <li>Расчет норм расхода сырья, материалов</li>
+              <li>Осуществление контроля за соблюдением технологической дисциплины и правильной эксплуатации технологического оборудования</li>
+              <li>Подбор инструмента/оснастки/оборудования в соответствии с технологическими задачами</li>
+              <li>Разработка и внедрение технологических инструкций</li>
+              <li>Коррекция и актуализация технических стандартов организации</li>
+              <li>Технический анализ отказавшей во время проведения работ/испытаний аппаратуры</li>
+              <li>Исследовательская работа на предмет внедрения и использования нового/закупленного оборудования для реализации целей и задач организации</li>
+              <li>Разработка и коррекция стандартов организации</li>
+              <li>Посещение в качестве представителя организации различных мероприятий</li>
+              <li>Сопровождение и закупка, технический анализ, подбор нового оборудования для реализации целей и задач организации</li>
+              <li>Замещение начальника группы на время ежегодного отпуска</li>
+        </section>
+          </div>
+        </div>
+      </div>
+
+     <div class="achievements">
+        <div class="achievements__name"></div>
+            <section>
+              <h4><b>Достижения:</b></h4>
+              <li>Разработал и внедрил инструкция по производству комплектов укладки, что позволило сэкономить на закупке таковых у сторонних организаций.</li>
+              <li>Разработал и внедрил технологию производства трафаретов из пленки типа ПЭТ или аналогичной для маркировки комплектов укладки на лазерном станке ЧПУ</li>
+              <li>Замещение начальника группы на время ежегодного отпуска несколько лет подряд</li>
+          </section>
+          </div>
+        </div>
+      </div>
+      <div class="skills">
+        <section>
+          <h5>Ключевые навыки:</h5>
+          <div class="skills_icons">
+          <i class='bx bxl-python'></i>
+          <i class='bx bxl-django'></i>
+          <i class='bx bxl-flask'></i>
+          <i class='bx bxl-postgresql'></i>
+          <i class='bx bxl-docker'></i>
+          <i class='bx bxl-html5'></i>
+          <i class='bx bxl-css3'></i>
+          <i class='bx bxl-visual-studio'></i>
+        </section>
+      </div>
+    </div>
+</body>
+</html>

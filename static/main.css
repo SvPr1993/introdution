@@ -1,0 +1,145 @@
+html{
+  --primary-color: #005092;
+  --secondary-color: #181818;
+  --bg-color: #353535;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: linear-gradient(#fafafa, #3292e7) center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+
+* {
+  color: var(--secondary-color);
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+h1 {
+  color: var(--primary-color);
+  margin-bottom: 0.25em;
+  margin-top: 10px;
+}
+
+h2 {
+  color: var(--secondary-color);
+  font-size: 1em;
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+
+h3 {
+  color: var(--primary-color);
+  margin-bottom: 0.25em;
+  margin: 10px 180px 10px;
+  font-size: 20px;
+}
+
+h4 {
+  color: var(--primary-color);
+  margin-bottom: 0.25em;
+  font-size: 20px;
+}
+h5 {
+  color: var(--primary-color);
+  margin-bottom: 0.25em;
+  margin: 10px 500px 10px;;
+  font-size: 20px;
+}
+
+a {
+  color: var(--primary-color);
+}
+
+section {
+  margin-bottom: 3em;
+  position: relative;
+}
+
+.cv {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.description {
+  margin: 0 auto;
+}
+.contacts {
+  margin-bottom: 2em;
+}
+
+.contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.contact__type {
+  min-width: 90px;
+}
+
+.experience {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 2em;
+}
+
+.experience__company {
+  margin-bottom: 1em
+}
+.experience__date {
+  min-width: 185px;
+  margin-bottom: 1em;
+}
+
+.experience__name {
+  font-weight: bold;
+}
+
+@media (max-width: 575px) {
+  .experience {
+    display: block;
+  }
+}
+.achievements {
+  margin: 10px 180px 10px;
+  margin-top: -5%;
+}
+.skills {
+  margin-right: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.skills_icons {
+  margin-left: 350px;
+  font-size: 100px;
+  color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.return_home {
+  font-weight: 700;
+  text-align: right;
+  font-size: 18px;
+  color:#005092;
+  margin-top: 2%;
+}
+
+.return_home:hover {
+  color:#000000
+  }
+.return_home_icon {
+  margin-right: 305px;
+  font-size: 30px;
+  margin-top: -3.0%;
+}
